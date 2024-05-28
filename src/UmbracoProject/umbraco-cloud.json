@@ -1,7 +1,17 @@
 {
   "Deploy": {
     "Project": {
-      "Workspaces": []
+      "Name": "ci to the cd",
+      "Alias": "ci-to-the-cd",
+      "Id": "bc791d9d-cd39-48ed-9bd3-c2b15de11b2b",
+      "Workspaces": [
+        {
+          "Id": "4671a781-2e6b-4b34-a0b7-1196fd3c12ba",
+          "Name": "Live",
+          "Type": "live",
+          "Url": "https://ci-to-the-cd.euwest01.rainbowsrock.net"
+        }
+      ]
     },
     "Settings": {}
   },
